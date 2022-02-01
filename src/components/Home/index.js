@@ -1,4 +1,7 @@
 import React from "react";
+import About from "../About";
+import Contact from "../Contact";
+import Tools from "../Tools";
 
 function Home() {
   return (
@@ -13,6 +16,9 @@ function Home() {
                 </div>
             </div>
         </section>
+        <About />
+        <Tools />
+        <Contact />
     </div>
   );
 }
