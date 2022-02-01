@@ -43,7 +43,7 @@ function Navbar() {
               
             </ul>
             <a class="navbar-brand fw-bolder fs-4 mx-auto" href="#">
-            Navbar
+            Tool Rentals
           </a>
             <NavLink to="/login" className="btn btn-outline-primary ms-auto px-4 rounded-pill">Login</NavLink>
             <NavLink to="/signup" className="btn btn-outline-primary ms-3 px-4 rounded-pill">Sign Up</NavLink>
