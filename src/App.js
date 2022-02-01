@@ -7,24 +7,19 @@ import Tools from "./components/Tools";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
+import Login from "./components/Login";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-
-        <Route />
-        <Route exact path="/about" element={<About />} />
-
-        <Route />
-        <Route exact path="/tools" element={<Tools />} />
-
-        <Route />
-        <Route exact path="/contact" element={<Contact />} />
-
-        <Route />
+        <Route exact path="/" element={<Home />} /><Route />
+        <Route exact path="/about" element={<About />} /><Route />
+        <Route exact path="/tools" element={<Tools />} /><Route />
+        <Route exact path="/contact" element={<Contact />} /><Route />
+        <Route exact path="/login" element={<Login />} /><Route />
+        {/* <Route exact path="/signup" element={<Signup />} /><Route /> */}
       </Routes>
       <Footer />
     </div>

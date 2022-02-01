@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
   return (
@@ -44,8 +45,8 @@ function Navbar() {
             <a class="navbar-brand fw-bolder fs-4 mx-auto" href="#">
             Navbar
           </a>
-            <button className="btn btn-outline-primary ms-auto px-4 rounded-pill">Login</button>
-            <button className="btn btn-outline-primary ms-3 px-4 rounded-pill">Register</button>
+            <NavLink to="/login" className="btn btn-outline-primary ms-auto px-4 rounded-pill">Login</NavLink>
+            <NavLink to="/signup" className="btn btn-outline-primary ms-3 px-4 rounded-pill">Sign Up</NavLink>
           </div>
         </div>
       </nav>
