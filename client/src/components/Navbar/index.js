@@ -27,16 +27,7 @@ function Navbar() {
                       Home
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a class="nav-link" href="/about">
-                      About
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a class="nav-link" href="/tools">
-                      Tools
-                    </a>
-                  </li>
+                 
                   <li className="nav-item">
                     <a class="nav-link" href="/contact">
                       Contact
@@ -44,7 +35,7 @@ function Navbar() {
                   </li>
 
                 </ul>
-                <a class="navbar-brand fw-bolder fs-4 mx-auto" href="/tools">
+                <a class="navbar-brand fw-bolder fs-4 mx-auto" href="/home">
                   Tool Rentals
                 </a>
                 <NavLink to="/" onClick={() => Auth.logout()} className="btn btn-outline-primary ms-auto px-4 rounded-pill">Logout</NavLink>
@@ -79,18 +70,13 @@ function Navbar() {
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/tools">
-                      Tools
-                    </a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="/contact">
                       Contact
                     </a>
                   </li>
 
                 </ul>
-                <a class="navbar-brand fw-bolder fs-4 mx-auto" href="/tools">
+                <a class="navbar-brand fw-bolder fs-4 mx-auto" href="/">
                   Tool Rentals
                 </a>
                 <NavLink to="/login" className="btn btn-outline-primary ms-auto px-4 rounded-pill">Login</NavLink>
@@ -103,13 +89,6 @@ function Navbar() {
 
   return (
     <header className="flex-row px-1">
-      {/* <h1>
-        <NavLink to="/">
-          <span role="img" aria-label="wrench">🔧</span>
-          Rent-a-Tool
-        </NavLink>
-      </h1> */}
-
       <nav className="navbar navbar-expand-lg navbar-light">
         {showNavigation()}
       </nav>
