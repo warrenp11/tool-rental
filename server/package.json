@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "rentatool-server",
+=======
+  "name": "server",
+>>>>>>> 0dd1b187eb7609d25368d01a0f304066ca983e61
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
