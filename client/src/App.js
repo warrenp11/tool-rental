@@ -6,6 +6,8 @@ import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
+import About from './components/About';
+import Contact from './components/Contact';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Navbar from './components/Navbar';
@@ -42,7 +44,9 @@ function App() {
             <Route exact path="/" element={<Home />} /><Route />
             <Route exact path="/success" element={Success} />
             <Route exact path="/orderHistory" component={OrderHistory} />
-            <Route exact path="/products/:id" component={Detail} />
+            <Route exact path="/products/:_id" component={Detail} />
+            <Route exact path="/about" element={<About/>} /><Route />
+            <Route exact path="/contact" element={<Contact />} /><Route />
             <Route exact path="/login" element={<Login />} /><Route />
             <Route exact path="/signup" element={<Signup />} /><Route />
             <Route component={NoMatch} />
