@@ -9,6 +9,7 @@ import About from "./components/About";
 import Tools from "./components/Tools";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Cart from './components/Cart';
 import { Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
