@@ -43,7 +43,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} /><Route />
             <Route exact path="/success" element={<Success/>} /><Route />
-            <Route exact path="/products/:_id" component={Detail} />
+            <Route exact path="/products/:_id" element={<Detail/>} /><Route />
             <Route exact path="/about" element={<About/>} /><Route />
             <Route exact path="/contact" element={<Contact />} /><Route />
             <Route exact path="/login" element={<Login />} /><Route />
