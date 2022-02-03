@@ -10,9 +10,7 @@ function Contact() {
               <h3 className="fs-5 text-center mb-0">Contact Us</h3>
               <p>Have Some Questions For Us?</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Volutpat blandit aliquam etiam erat velit scelerisque in dictum.
+               Looking to rent a tool or have a question about what tool is right fot the job? Feel free to react out to us with any questions or concerns. 
               </p>
             </div>
             <div className="col-md-6">
