@@ -13,7 +13,7 @@ import Signup from './pages/Signup';
 import Navbar from './components/Navbar';
 import { StoreProvider } from './utils/GlobalState';
 import Success from './pages/Success';
-import OrderHistory from './pages/OrderHistory';
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -42,9 +42,8 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Home />} /><Route />
-            <Route exact path="/success" element={Success} />
-            <Route exact path="/orderHistory" component={OrderHistory} />
-            <Route exact path="/products/:_id" component={Detail} />
+            <Route exact path="/success" element={<Success/>} /><Route />
+            <Route exact path="/products/:_id" element={<Detail/>} /><Route />
             <Route exact path="/about" element={<About/>} /><Route />
             <Route exact path="/contact" element={<Contact />} /><Route />
             <Route exact path="/login" element={<Login />} /><Route />
