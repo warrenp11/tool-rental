@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Social Network API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Created%20by-Peter%20Warren-yellow?style=for-the-badge)</br>
+![](https://img.shields.io/badge/Created%20by-Charlie%20Cruz-red?style=for-the-badge)</br>
+![](https://img.shields.io/badge/Created%20by-Nick%20Small-blue?style=for-the-badge)</br>
+![](https://img.shields.io/badge/Created%20by-Darnell%20Davy-green?style=for-the-badge)</br>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+* [Description](#description)
+* [Credits](#credits)
+* [Questions](#questions)
+* [License](#license)
 
-### `npm start`
+## Description
+Rent-A-Tool is a way for those who don't have enough room to store tools to still have access to them without spending a large amount of money.</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our motivation for this app comes after getting stuck indoors due to covid, having things that need to be fixed around the house but not wanting to waste money and storage on tools. </br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+As someone who doesn't have enough room to keep many tools, but likes to do work around the house, I would like an easy way to obtain the tools I need without worrying about where to store them.  </br>
 
-### `npm test`
+This is MERN stack single-page application that works with real-world data to solve a real-world challenge, with a focus on user demand.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
+![](https://img.shields.io/badge/npm%20package-express-blue?style=flat-square&logo=npm) </br>
+[Express.js](https://expressjs.com/)
 
-### `npm run build`
+![](https://img.shields.io/badge/Database-MongoDB-green?style=flat-square&logo=mongoDB) </br>
+[MonogDB](https://www.mongodb.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://img.shields.io/badge/npm%20package-mongoose-red?style=flat-square&logo=npm) <br/>
+[Mongoose](https://mongoosejs.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](https://img.shields.io/badge/npm%20package-graphql-purple?style=flat-square&logo=npm) <br/>
+[GraphQL](https://www.apollographql.com/docs/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Questions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](https://img.shields.io/badge/Hi%20Im-Peter%20Warren-yellow?style=for-the-badge)</br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you have any questions about this project contact me directly at warrenp11@gmail.com. 
+  
+Visit this project's repository at https://www.github.com/warrenp11/tool-rental
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+View more of my projects at https://www.github.com/warrenp11
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![](https://img.shields.io/badge/Hi%20Im-Charlie%20Cruz-red?style=for-the-badge)</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have any questions about this project contact me directly at <yourEmail>. 
+  
+Visit this project's repository at https://www.github.com/warrenp11/tool-rental
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+View more of my projects at https://www.github.com/<username>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://img.shields.io/badge/Hi%20Im-Nick%20Small-blue?style=for-the-badge)</br>
 
-### Analyzing the Bundle Size
+If you have any questions about this project contact me directly at <yourEmail>. 
+  
+Visit this project's repository at https://www.github.com/warrenp11/tool-rental
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+View more of my projects at https://github.com/Nsmall94
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![](https://img.shields.io/badge/Hi%20Im-Darnell%20Davy-green?style=for-the-badge)</br>
 
-### Advanced Configuration
+If you have any questions about this project contact me directly at <yourEmail>. 
+  
+Visit this project's repository at https://www.github.com/warrenp11/tool-rental
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+View more of my projects at https://www.github.com/<username>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+Licensed under the [MIT](./LICENSE.txt) license.
