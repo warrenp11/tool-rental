@@ -66,11 +66,11 @@ View more of my projects at https://github.com/Nsmall94
 
 ![](https://img.shields.io/badge/Hi%20Im-Darnell%20Davy-green?style=for-the-badge)</br>
 
-If you have any questions about this project contact me directly at <yourEmail>. 
+If you have any questions about this project contact me directly at darnelldavy@gmail.com. 
   
 Visit this project's repository at https://www.github.com/warrenp11/tool-rental
 
-View more of my projects at https://www.github.com/<username>
+View more of my projects at https://www.github.com/DarnellDavy
 
 
 ## License
